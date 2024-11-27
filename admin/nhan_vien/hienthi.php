@@ -57,7 +57,7 @@ else {
     <style>
         .custom-textbox {
             height: 50px;
-            border: 2px solid #0094ff;
+            border: 2px solid #ff9700;
         }
         .pagination-container {
             display: flex;
@@ -72,18 +72,18 @@ else {
             text-align: center;
             text-decoration: none;
             color: #fff;
-            background-color: #007bff;
+            background-color: #ff9700;
             border-radius: 20px; /* Tạo bo tròn cho nút */
             font-weight: bold;
             transition: background-color 0.3s;
         }
 
         .pagination a:hover {
-            background-color: #0056b3; /* Màu khi hover */
+            background-color: #ff6f00; /* Màu khi hover */
         }
 
         .pagination b {
-            background-color: #0056b3; /* Màu của trang hiện tại */
+            background-color: #ff6f00; /* Màu của trang hiện tại */
             color: #ffffff;
         }
     </style>
@@ -120,7 +120,7 @@ else {
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="card-tools">
-                                        <a href="<?php echo $base_url?>/admin/nhan_vien/themmoi.php" class="btn btn-rounded btn-primary">Thêm mới</a>
+                                        <a href="<?php echo $base_url?>/admin/nhan_vien/themmoi.php" class="btn btn-rounded btn-warning">Thêm mới</a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
@@ -174,7 +174,7 @@ else {
                                         echo "<td class='text-center'>" . ($row['gioiTinh'] == 1 ? 'Nam' : 'Nữ') . "</td>";
                                         echo "<td class='text-center'>{$row['soDienThoai']}</td>";
                                         echo "<td class='text-center'>
-                                                <a href='$base_url/admin/nhan_vien/chitiet.php?manv={$row['id']}' class='btn btn-xs btn-warning text-white'><i class='fa-solid fa-circle-info'></i></a>
+                                                <a href='$base_url/admin/nhan_vien/chitiet.php?manv={$row['id']}' class='btn btn-xs btn-success text-white'><i class='fa-solid fa-circle-info'></i></a>
                                                 <a href='$base_url/admin/nhan_vien/chinhsua.php?manv={$row['id']}' class='btn btn-xs btn-primary'><i class='fa-solid fa-pen-to-square'></i></a>
                                                 <a href='$base_url/admin/nhan_vien/xoa.php?manv={$row['id']}' class='btn btn-xs btn-danger'><i class='fa-solid fa-trash-can'></i></a>
                                               </td>";

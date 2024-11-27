@@ -421,7 +421,7 @@ body {
             }
 
         .main-header .logo-header .logo {
-            color: #575962;
+            color: #fffffc;
             opacity: 1;
             position: relative;
             height: 100%;
@@ -1370,7 +1370,7 @@ body {
 }
 
 .main-header[data-background-color] .logo-header {
-    background-color: rgba(31, 30, 30, 0.12) !important;
+    background-color: #673d94!important;
 }
 
     .main-header[data-background-color] .logo-header .navbar-toggler .navbar-toggler-icon {
@@ -1489,7 +1489,7 @@ body {
 }
 
     .main-header[data-background-color="light-blue"] .navbar-header {
-        background: #36a3f7 !important;
+        background: #8149ab !important;
     }
 
 .main-header[data-background-color="orange"] {
@@ -2608,7 +2608,7 @@ label {
 }
 
     .form-control:focus {
-        border-color: #3e93ff;
+        border-color: #FF9700;
     }
 
 /*     Form Control Sizes    */
@@ -2701,7 +2701,7 @@ label {
             text-align: center;
             font-size: 1.3em;
             line-height: 0.8;
-            color: #177dff;
+            color: #FF9700;
             transition: all .2s;
             font-family: 'Font Awesome 5 Solid';
         }
@@ -4255,13 +4255,13 @@ label.error {
     }
 
 .btn-primary {
-    background: #177dff !important;
-    border-color: #177dff !important;
+    background: #4D7CFE !important;
+    border-color: #4D7CFE!important;
 }
 
     .btn-primary:hover, .btn-primary:focus, .btn-primary:disabled {
-        background: #177dff !important;
-        border-color: #177dff !important;
+        background: #4D7CFE!important;
+        border-color: #4D7CFE !important;
     }
 
 .btn-secondary {
@@ -4275,13 +4275,13 @@ label.error {
     }
 
 .btn-info {
-    background: #36a3f7 !important;
-    border-color: #36a3f7 !important;
+    background: #ffa534  !important;
+    border-color: #ffa534  !important;
 }
 
     .btn-info:hover, .btn-info:focus, .btn-info:disabled {
-        background: #36a3f7 !important;
-        border-color: #36a3f7 !important;
+        background: #ffa534 !important;
+        border-color: #ffa534 !important;
     }
 
 .btn-success {
@@ -4355,6 +4355,7 @@ label.error {
         color: #177dff !important;
         border: 1px solid #177dff !important;
     }
+
 
     .btn-border.btn-secondary {
         color: #716aca !important;
