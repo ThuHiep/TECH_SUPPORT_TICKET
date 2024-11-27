@@ -1,7 +1,7 @@
 <?php
 $base_url = "/Thuctapnganh_sweetsoft/TECH_SUPPORT_TICKET";
 include('../includes/header.html');
-include('../includes/menu.html');
+include('../menu.html');
 
 //Kết nối cơ sở dữ liệu
 $connect = mysqli_connect("localhost", "root", "", "qlbandienthoai")
